@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+.container {
+    /* background-color: rgb(72, 72, 238); */
+    background-image: linear-gradient(to right, rgb(18, 18, 94) , skyblue);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    height: 30px;
+}
+
+.box2 {
+    background-color:lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    width: 71vw;
+    border-radius: 110px 0px 0px 110px;
+}
+
+.box3 {
+    height: 47vh;
+    display: flex;
+    margin-top: 4vh;
+    margin-left: 7vw;
+    padding-left: 60px;
+    
+}
+
+.right {
+    display: inline;
+}
+
+.right input {
+    display: flex;
+    height: 7vh;
+    width: 25vw;
+    font-size:17px;
+    margin: 24px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-width: 0;
+}
+
+.left {
+    display: inline;
+}
+
+.left input {
+    display: flex;
+    height: 7vh;
+    width: 25vw;
+    font-size:17px;
+    margin: 24px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-width: 0;
+}
+
+.box2 h1 {
+    height: 14vh;
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.emp{
+    position: relative;
+    top: 30px;
+    left: 40px;
+    padding: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.switch {
+    margin-top: 15px;
+    margin-left: 685px;
+}
+
+.img {
+    height: 300px;
+}
+
+.box h3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.box p {
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.Login {
+    border-radius: 23px;
+    height:40px;
+    width: 150px;
+    position: relative;
+    left: 10vw;
+    top: 15vh;
+    border-width: 0;
+}
+
+.Login a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+
+}
+
+.gender {
+    text-align: end;
+    width: 65vw;
+    border-radius: 23px;
+    font-size: 20px; 
+    margin: 4px;
+    margin-left: 53px;
+
+}
+
+.img {
+    height: 30vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.buttons {
+    position: relative;
+    left: 50vw;
+    top:25px;
+    height: 6vh;
+    width: 16vw;
+    display: flex; 
+    align-items: center;
+    border-width: 0;
+    background-color: rgb(18, 18, 94);
+    border-radius: 24px;
+    font-size: 20px;
+}
+
+
+.button2:active {
+    background-color: white;
+}
